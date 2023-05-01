@@ -542,9 +542,9 @@ dependencies = [
 
 [[package]]
 name = "nix"
-version = "0.20.2"
+version = "0.22.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f5e06129fb611568ef4e868c14b326274959aa70ff7776e9d55323531c374945"
+checksum = "e4916f159ed8e5de0082076562152a76b7a1f64a01fd9d1e0fea002c37624faf"
 dependencies = [
  "bitflags",
  "cc",
@@ -1136,9 +1136,9 @@ dependencies = [
 
 [[package]]
 name = "zbus"
-version = "1.9.2"
+version = "1.9.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e5983c3d035549ab80db67c844ec83ed271f7c1f2546fd9577c594d34c1b6c85"
+checksum = "9cbeb2291cd7267a94489b71376eda33496c1b9881adf6b36f26cc2779f3fc49"
 dependencies = [
  "async-io",
  "byteorder",
@@ -1147,7 +1147,7 @@ dependencies = [
  "fastrand",
  "futures",
  "nb-connect",
- "nix 0.20.2",
+ "nix 0.22.3",
  "once_cell",
  "polling",
  "scoped-tls",
@@ -1159,9 +1159,9 @@ dependencies = [
 
 [[package]]
 name = "zbus_macros"
-version = "1.9.2"
+version = "1.9.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bce54ac7b2150a2fa21ad5842a7470ce2288158d7da1f9bfda8ad455a1c59a97"
+checksum = "fa3959a7847cf95e3d51e312856617c5b1b77191176c65a79a5f14d778bbe0a6"
 dependencies = [
  "proc-macro-crate 0.1.5",
  "proc-macro2",
